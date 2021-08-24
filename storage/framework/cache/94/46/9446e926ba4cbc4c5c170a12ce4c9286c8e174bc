@@ -1,0 +1,82 @@
+1629806712a:1:{s:19:"home/posts-home.htm";a:6:{s:8:"fileName";s:19:"home/posts-home.htm";s:7:"content";s:1530:"[builderList]
+modelClass = "Kfund\Creator\Models\Posts"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No posts found"
+detailsPage = "post"
+detailsKeyColumn = "id"
+detailsUrlParameter = "id"
+recordsPerPage = 0
+pageNumber = "{{ :page }}"
+==
+{% set records = builderList.records %}
+<section id="related-posts">
+  <div class="uk-container">
+    <h2 class="uk-text-center">Пости</h2>
+    <div class="posts-wrapper">
+      {% set break = false %}
+      {% for record in records %}
+      {% if loop.index >=7 %}
+      {% set break = true %}
+      {% else %}
+      <a href="/post/{{ record.id }}" class="post-wrapper__item overlayShow">
+        <div class="uk-panel--card-overlay"> </div>
+        <picture>
+          <source srcset="{{ record.post_image.path }}" type="image/webp">
+          <img data-src="{{ record.post_image.path }}" class="lazyload" alt="{{ record.title }}">
+        </picture>
+        <div class="uk-overlay uk-position-top uk-dark">
+          <div class="post-info">
+            <div class="small-description post-info__category">
+              {% for tag in record.tags %}
+              <span href="#">{{ tag.title }}</span>
+              {% endfor %}
+            </div>
+            <span class="info__date">{{ record.date }}
+            </span>
+          </div>
+          <br><br><br><br><br>
+          <p>{{ record.title }}</p>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+";s:5:"mtime";i:1629806107;s:6:"markup";s:1239:"{% set records = builderList.records %}
+<section id="related-posts">
+  <div class="uk-container">
+    <h2 class="uk-text-center">Пости</h2>
+    <div class="posts-wrapper">
+      {% set break = false %}
+      {% for record in records %}
+      {% if loop.index >=7 %}
+      {% set break = true %}
+      {% else %}
+      <a href="/post/{{ record.id }}" class="post-wrapper__item overlayShow">
+        <div class="uk-panel--card-overlay"> </div>
+        <picture>
+          <source srcset="{{ record.post_image.path }}" type="image/webp">
+          <img data-src="{{ record.post_image.path }}" class="lazyload" alt="{{ record.title }}">
+        </picture>
+        <div class="uk-overlay uk-position-top uk-dark">
+          <div class="post-info">
+            <div class="small-description post-info__category">
+              {% for tag in record.tags %}
+              <span href="#">{{ tag.title }}</span>
+              {% endfor %}
+            </div>
+            <span class="info__date">{{ record.date }}
+            </span>
+          </div>
+          <br><br><br><br><br>
+          <p>{{ record.title }}</p>
+        </div>
+      </a>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>";s:4:"code";N;s:11:"builderList";a:10:{s:10:"modelClass";s:26:"Kfund\Creator\Models\Posts";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:14:"No posts found";s:11:"detailsPage";s:4:"post";s:16:"detailsKeyColumn";s:2:"id";s:19:"detailsUrlParameter";s:2:"id";s:14:"recordsPerPage";s:1:"0";s:10:"pageNumber";s:11:"{{ :page }}";}}}

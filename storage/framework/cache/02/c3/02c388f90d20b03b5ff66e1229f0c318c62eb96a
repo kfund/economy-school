@@ -1,0 +1,103 @@
+1629806551a:1:{s:13:"home/team.htm";a:7:{s:8:"fileName";s:13:"home/team.htm";s:7:"content";s:2258:"[builderList]
+modelClass = "Kfund\Creator\Models\Teachers"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No teachers found"
+detailsPage = "-"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+
+[contenteditor]
+==
+
+{% set records = builderList.records %}
+<section id="team">
+    <div class="uk-container">
+        <h2 class="uk-text-center">{{ 'Познайомся з нашою командою'|_ }}</h2>
+    </div>
+    <div class="owl-carousel--team  owl-carousel  owl-theme">
+        {% for record in records %}
+        <div class="item">
+            <div class="picture-wrapper">
+                <picture>
+                    <source srcset="{{ record.teacher_photo_webp.path }}" type="image/webp">
+                    <img data-src="{{ record.teacher_photo_webp.path }}" class="lazyload" alt="">
+                </picture>
+            </div>
+            <div class="team--role">
+                <h3 class="teammate--name">{{ record.name }}</h3>
+                <p class="teammate--rank">{{ record.title }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="team__desk-custom" uk-parallax="bgx: -600">
+        {% for record in records %}
+        <div class="item item-coords">
+            <div class="picture-wrapper">
+                <picture>
+                    <source srcset="{{ record.teacher_photo_webp.path }}" type="image/webp">
+                    <img data-src="{{ record.teacher_photo_webp.path }}" class="lazyload" alt="">
+                </picture>
+            </div>
+            <div class="team--role">
+                <h3 class="teammate--name">{{ record.name }}</h3>
+                <p class="teammate--rank">{{ record.title }}</p>
+            </div>
+        </div>
+        {% endfor %}   
+    </div>
+    </div>
+    <div class="uk-container">
+        {% component 'contenteditor' file="teachers/team-description.htm" fixture="p" class="team--description"%}
+        <div class="team--watch-all-team"> <a class="main-button  team--action" href="#">{{ 'Всі викладачі'|_ }}</a></div>
+    </div>
+    </div>
+    <div class="team--background-overlay"> </div>
+</section>";s:5:"mtime";i:1629648387;s:6:"markup";s:1962:"{% set records = builderList.records %}
+<section id="team">
+    <div class="uk-container">
+        <h2 class="uk-text-center">{{ 'Познайомся з нашою командою'|_ }}</h2>
+    </div>
+    <div class="owl-carousel--team  owl-carousel  owl-theme">
+        {% for record in records %}
+        <div class="item">
+            <div class="picture-wrapper">
+                <picture>
+                    <source srcset="{{ record.teacher_photo_webp.path }}" type="image/webp">
+                    <img data-src="{{ record.teacher_photo_webp.path }}" class="lazyload" alt="">
+                </picture>
+            </div>
+            <div class="team--role">
+                <h3 class="teammate--name">{{ record.name }}</h3>
+                <p class="teammate--rank">{{ record.title }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    <div class="team__desk-custom" uk-parallax="bgx: -600">
+        {% for record in records %}
+        <div class="item item-coords">
+            <div class="picture-wrapper">
+                <picture>
+                    <source srcset="{{ record.teacher_photo_webp.path }}" type="image/webp">
+                    <img data-src="{{ record.teacher_photo_webp.path }}" class="lazyload" alt="">
+                </picture>
+            </div>
+            <div class="team--role">
+                <h3 class="teammate--name">{{ record.name }}</h3>
+                <p class="teammate--rank">{{ record.title }}</p>
+            </div>
+        </div>
+        {% endfor %}   
+    </div>
+    </div>
+    <div class="uk-container">
+        {% component 'contenteditor' file="teachers/team-description.htm" fixture="p" class="team--description"%}
+        <div class="team--watch-all-team"> <a class="main-button  team--action" href="#">{{ 'Всі викладачі'|_ }}</a></div>
+    </div>
+    </div>
+    <div class="team--background-overlay"> </div>
+</section>";s:4:"code";N;s:11:"builderList";a:9:{s:10:"modelClass";s:29:"Kfund\Creator\Models\Teachers";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"name";s:16:"noRecordsMessage";s:17:"No teachers found";s:11:"detailsPage";s:1:"-";s:16:"detailsKeyColumn";s:4:"slug";s:19:"detailsUrlParameter";s:4:"slug";s:10:"pageNumber";s:11:"{{ :page }}";}s:13:"contenteditor";a:0:{}}}

@@ -1,0 +1,33 @@
+1629806551a:1:{s:22:"home/cities-mobile.htm";a:6:{s:8:"fileName";s:22:"home/cities-mobile.htm";s:7:"content";s:606:"[builderList]
+modelClass = "Kfund\Creator\Models\Cities"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+==
+
+{% set records = builderList.records %}
+<a class="footer--dropdown--title">{{ records[0].city|_ }}</a>
+<div uk-dropdown="mode: click" class="footer--dropdown--content">
+    <ul>
+        {% for record in records %}
+        <li>
+            <a href="#">{{ record.city }} </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>";s:5:"mtime";i:1629650921;s:6:"markup";s:331:"{% set records = builderList.records %}
+<a class="footer--dropdown--title">{{ records[0].city|_ }}</a>
+<div uk-dropdown="mode: click" class="footer--dropdown--content">
+    <ul>
+        {% for record in records %}
+        <li>
+            <a href="#">{{ record.city }} </a>
+        </li>
+    {% endfor %}
+    </ul>
+</div>";s:4:"code";N;s:11:"builderList";a:9:{s:10:"modelClass";s:27:"Kfund\Creator\Models\Cities";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:16:"detailsKeyColumn";s:4:"slug";s:19:"detailsUrlParameter";s:4:"slug";s:10:"pageNumber";s:11:"{{ :page }}";}}}

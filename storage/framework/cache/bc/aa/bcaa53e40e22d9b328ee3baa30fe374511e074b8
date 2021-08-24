@@ -1,0 +1,751 @@
+1629802336a:1:{s:19:"frontend_course.htm";a:9:{s:8:"fileName";s:19:"frontend_course.htm";s:7:"content";s:26465:"title = "Front-End Course"
+url = "/frontend_course"
+layout = "default"
+is_hidden = 0
+==
+    <section id="hero">
+        <div class="uk-container uk-container-small ">
+            <div class="hero--left-side">
+                <span class="hero--courses-mark"> <span>IT</span> </span>
+                <h1 class="hero--site-slogan uk-text-left "><span class="hero--site-slogan-padding">Профeсія Front-End</span> програміст</h1>
+                <p class="hero--description">Ми вчимо вас на власному досвіді. Наші курси зосереджені на цінних навичках і перевірених процесах, які поліпшать вашу роботу, вразять ваших клієнтів.</p>
+                <div class="hero--left-side--regisration ">
+                    <div class="hero--regisration-gray-bg">
+                        <!-- date when courses started in element with class "end-course" dataset f ex: years - XXXX , month - XX ...-->
+                        <p class="end-course" data-years="2021" data-month="08" data-days="16" data-hours="11" data-minutes="13" data-seconds="22"> Реєстрація на курс закінчиться через</p>
+                        <div class="left-side--regisration-time-wrapper">
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="days time-wrapper--number"> 00</div>
+                                <div class="time-wrapper--text">днів</div>
+                            </div>
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="hours time-wrapper--number">12</div>
+                                <div class="time-wrapper--text">годин</div>
+                            </div>
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="minutes time-wrapper--number">13</div>
+                                <div class="time-wrapper--text">хвилин</div>
+                            </div>
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="seconds time-wrapper--number">36</div>
+                                <div class="time-wrapper--text">секунд</div>
+                            </div>
+                        </div>
+                        <p class="registration--free-space"> Вільних місць залишилось у наборі</p>
+                        <div class="registration--number-of-free-space"> 12</div>
+                    </div>
+                    <div class="registration--footer"> <a href="#">Реєструйся</a> </div>
+                </div>
+                <div class="hero--post-description"> <span class="hero--post-description--attention orange-attention"><span>!</span></span>
+                    <p>Реєструйся на онлайн навчання та отримай <span>15%</span> знижку!</p>
+                </div>
+            </div>
+            <div class="hero--right-side"  style="background-image: url({{  }})">
+
+            </div>
+        </div>
+    </section>
+    <section id="mobile-navigation">
+        <div class="uk-container uk-container-small ">
+            <div class="mobile-navigation-wrapper">
+                <div class="header--burger">
+                    <div id="menu-toggle" class="burger--btn">
+                        <div id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <span>Навігація</span>
+                </div>
+                <ul class="mobile-navigation--list">
+                    <li>
+                        <a href="#course-for"> Для кого курс </a>
+                    </li>
+                    <li>
+                        <a href="#video-represent"> Навіщо курс </a>
+                    </li>
+                    <li>
+                        <a href="#course-program"> Програма  </a>
+                    </li>
+
+                    <li>
+                        <a href="#course-price"> Ціна </a>
+                    </li>
+                    <li>
+                        <a href="#students-review"> Відгуки </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="course-for">
+        <div class="uk-container uk-container-small ">
+            <h2>Для кого курс</h2>
+            <p>Ми вчимо вас на власному досвіді. Наші курси зосереджені на цінних навичках і перевірених процесах, які поліпшать вашу роботу, вразять ваших клієнтів і допоможуть вам побудувати свій кар'єрний шлях.</p>
+            <div class="course-for--numbers-achievement">
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">5+</div>
+                    <div class="numbers-achievement--wrapper-description">Років практики в онлайн та офлайн навчанні
+                    </div>
+                </div>
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">500+</div>
+                    <div class="numbers-achievement--wrapper-description">Годин навчання на практиці</div>
+                </div>
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">90%</div>
+                    <div class="numbers-achievement--wrapper-description">Студентів отримує роботу в ІТ-компаніях</div>
+                </div>
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">1000+</div>
+                    <div class="numbers-achievement--wrapper-description">Випускників по всій Україні</div>
+                </div>
+            </div>
+
+
+    </section>
+    <section id="video-represent">
+        <div class="uk-container uk-container-small ">
+            <h2>Навіщо цей курс</h2>
+            <p>Ми вчимо вас на власному досвіді. Наші курси зосереджені на цінних навичках і перевірених процесах, які поліпшать вашу роботу, вразять ваших клієнтів і допоможуть вам побудувати свій кар'єрний шлях.</p>
+
+        </div>
+        <div class="video-iframe container-xl">
+            <div class="video-iframe--banner">
+                <div class="video-iframe--content">
+                    <div class="target">
+                        <a href="#" class="video__button text"> Про курс<span> Про курс</span> <img
+                                data-src="{{ 'assets/images/icon_video.svg'|theme }}" class="lazyload" alt="play video"> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="trailer">
+                <div class="cover">
+
+                    <div class="tv">
+                        <div class="screen" id="tv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="course-program">
+        <div class="uk-container uk-container-small ">
+            <h2>Програма курсів</h2>
+            <ul uk-accordion>
+                <li class="uk-open">
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">Старт </a>
+                    <div class="uk-accordion-content">
+                        <p>Це старт. Тут ми освоїмо базовий синтаксис мови JavaScript. Саме тут ми наб'ємо перші синці та познайомимося із змінними, циклами, функціями, логічними операторами та іншими базовими конструкціями JS.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">HTML/CSS</a>
+                    <div class="uk-accordion-content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">Навчимося працювати з GitHub</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">Реактивненько вриваємось в світ фреймворків та
+                        UI-бібліотек</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">HTML/CSS</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+
+            </ul>
+    </section>
+    <section id="course-technology">
+        <div class="uk-container uk-container-small ">
+            <h2 class="uk-text-center course-technology--title">Технології</h2>
+            <div class="course-technology--grid">
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/vue.svg'|theme }}" class="lazyload" alt="Vue">
+                    <p class="course-technology--grid-item--description">Vue</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/tailwind.svg'|theme }}" class="lazyload" alt="Tailwind">
+                    <p class="course-technology--grid-item--description">Tailwind</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/sass.svg'|theme }}" class="lazyload" alt="Sass">
+                    <p class="course-technology--grid-item--description">Sass</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/react-mobile.svg'|theme }}" class="hide-pc lazyload" alt="React">
+                    <img data-src="{{ 'assets/images/courses/react.png'|theme }}" class="hide-mob pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/github.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/html.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/js.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/npm.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/git.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/css.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+            </div>
+            <p class="uk-text-center course-technology--follow-us">Приєднуйся до нас та отримай доступ до всіх технологій
+            </p>
+            <a class="course-technology--get-all" href="#"> Всі технології <span> <span class="orange-attention"> +
+                    </span></span> </a>
+        </div>
+    </section>
+    <section id="course-price">
+        <div class="uk-container uk-container-small ">
+            <h2 class="uk-text-left course-technology--title">Ціна за курс</h2>
+            <div class="course-price--price-wrapper">
+                <div class="price-wrapper--main-price-wrapper">
+                    <p class="price-wrapper--main-price">
+                        <span class="main-price--price--cost">1 999 </span><span class="main-price--currency">грн</span>
+                    </p>
+                </div>
+                <div class="course-price--course-description">
+
+                    <div class="course-price--course-description-wrapper">
+                        <h3 class="course-price--vacancies">
+                            <div><span class="course-category uk-text-center "><span>IT</span></span>
+                            </div>Професія Front-End програміст</h3>
+                        <ul>
+                            <li><span> 5 </span>занять</li>
+                            <li><span> 48 </span>годин практики</li>
+                            <li>м.Київ <span>Слобода 24</span>, 3 поверх</li>
+                            <li>+380 97 123 33 44</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="main-button-action "> Реєструйся </a>
+            </div>
+        </div>
+    </section>
+    <section id="students-review">
+        <h2 class="uk-text-center students-review--title title-onlymobile">Що про нас кажуть</h2>
+        <h2 class="uk-text-center students-review--title">Про нас кажуть</h2>
+        <div class="owl-carousel students-review--owl">
+            <div class="slides" data-count='1'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/heart.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slides" data-count='2'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/like.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slides" data-count='3'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/heart.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slides" data-count='4'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/like.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="students-review--counter">
+            <span class="counter--current-item">1</span>
+            <span class="counter--border-progress"><span class="pulse"></span></span>
+            <span class="counter--all-items"></span>
+        </div>
+        <a class="students-review--get-all" href="#"> Додати відгук <span class="students-review--plus-wrapper"> <span
+                    class="orange-attention"> +
+                </span></span> </a>
+    </section>
+    {% partial 'reg-bottom' %}
+";s:5:"mtime";i:1629801677;s:6:"markup";s:26372:"<section id="hero">
+        <div class="uk-container uk-container-small ">
+            <div class="hero--left-side">
+                <span class="hero--courses-mark"> <span>IT</span> </span>
+                <h1 class="hero--site-slogan uk-text-left "><span class="hero--site-slogan-padding">Профeсія Front-End</span> програміст</h1>
+                <p class="hero--description">Ми вчимо вас на власному досвіді. Наші курси зосереджені на цінних навичках і перевірених процесах, які поліпшать вашу роботу, вразять ваших клієнтів.</p>
+                <div class="hero--left-side--regisration ">
+                    <div class="hero--regisration-gray-bg">
+                        <!-- date when courses started in element with class "end-course" dataset f ex: years - XXXX , month - XX ...-->
+                        <p class="end-course" data-years="2021" data-month="08" data-days="16" data-hours="11" data-minutes="13" data-seconds="22"> Реєстрація на курс закінчиться через</p>
+                        <div class="left-side--regisration-time-wrapper">
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="days time-wrapper--number"> 00</div>
+                                <div class="time-wrapper--text">днів</div>
+                            </div>
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="hours time-wrapper--number">12</div>
+                                <div class="time-wrapper--text">годин</div>
+                            </div>
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="minutes time-wrapper--number">13</div>
+                                <div class="time-wrapper--text">хвилин</div>
+                            </div>
+                            <div class="regisration-time-wrapper--blocks">
+                                <div class="seconds time-wrapper--number">36</div>
+                                <div class="time-wrapper--text">секунд</div>
+                            </div>
+                        </div>
+                        <p class="registration--free-space"> Вільних місць залишилось у наборі</p>
+                        <div class="registration--number-of-free-space"> 12</div>
+                    </div>
+                    <div class="registration--footer"> <a href="#">Реєструйся</a> </div>
+                </div>
+                <div class="hero--post-description"> <span class="hero--post-description--attention orange-attention"><span>!</span></span>
+                    <p>Реєструйся на онлайн навчання та отримай <span>15%</span> знижку!</p>
+                </div>
+            </div>
+            <div class="hero--right-side"  style="background-image: url({{  }})">
+
+            </div>
+        </div>
+    </section>
+    <section id="mobile-navigation">
+        <div class="uk-container uk-container-small ">
+            <div class="mobile-navigation-wrapper">
+                <div class="header--burger">
+                    <div id="menu-toggle" class="burger--btn">
+                        <div id="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <span>Навігація</span>
+                </div>
+                <ul class="mobile-navigation--list">
+                    <li>
+                        <a href="#course-for"> Для кого курс </a>
+                    </li>
+                    <li>
+                        <a href="#video-represent"> Навіщо курс </a>
+                    </li>
+                    <li>
+                        <a href="#course-program"> Програма  </a>
+                    </li>
+
+                    <li>
+                        <a href="#course-price"> Ціна </a>
+                    </li>
+                    <li>
+                        <a href="#students-review"> Відгуки </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="course-for">
+        <div class="uk-container uk-container-small ">
+            <h2>Для кого курс</h2>
+            <p>Ми вчимо вас на власному досвіді. Наші курси зосереджені на цінних навичках і перевірених процесах, які поліпшать вашу роботу, вразять ваших клієнтів і допоможуть вам побудувати свій кар'єрний шлях.</p>
+            <div class="course-for--numbers-achievement">
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">5+</div>
+                    <div class="numbers-achievement--wrapper-description">Років практики в онлайн та офлайн навчанні
+                    </div>
+                </div>
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">500+</div>
+                    <div class="numbers-achievement--wrapper-description">Годин навчання на практиці</div>
+                </div>
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">90%</div>
+                    <div class="numbers-achievement--wrapper-description">Студентів отримує роботу в ІТ-компаніях</div>
+                </div>
+                <div class="numbers-achievement--wrapper">
+                    <div class="numbers-achievement--wrapper-number">1000+</div>
+                    <div class="numbers-achievement--wrapper-description">Випускників по всій Україні</div>
+                </div>
+            </div>
+
+
+    </section>
+    <section id="video-represent">
+        <div class="uk-container uk-container-small ">
+            <h2>Навіщо цей курс</h2>
+            <p>Ми вчимо вас на власному досвіді. Наші курси зосереджені на цінних навичках і перевірених процесах, які поліпшать вашу роботу, вразять ваших клієнтів і допоможуть вам побудувати свій кар'єрний шлях.</p>
+
+        </div>
+        <div class="video-iframe container-xl">
+            <div class="video-iframe--banner">
+                <div class="video-iframe--content">
+                    <div class="target">
+                        <a href="#" class="video__button text"> Про курс<span> Про курс</span> <img
+                                data-src="{{ 'assets/images/icon_video.svg'|theme }}" class="lazyload" alt="play video"> </a>
+                    </div>
+                </div>
+            </div>
+            <div class="trailer">
+                <div class="cover">
+
+                    <div class="tv">
+                        <div class="screen" id="tv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="course-program">
+        <div class="uk-container uk-container-small ">
+            <h2>Програма курсів</h2>
+            <ul uk-accordion>
+                <li class="uk-open">
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">Старт </a>
+                    <div class="uk-accordion-content">
+                        <p>Це старт. Тут ми освоїмо базовий синтаксис мови JavaScript. Саме тут ми наб'ємо перші синці та познайомимося із змінними, циклами, функціями, логічними операторами та іншими базовими конструкціями JS.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">HTML/CSS</a>
+                    <div class="uk-accordion-content">
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor reprehenderit.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">Навчимося працювати з GitHub</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">Реактивненько вриваємось в світ фреймворків та
+                        UI-бібліотек</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+                <li>
+                    <a href="#" class="registration-action">Реєструйся</a>
+                    <a class="uk-accordion-title" href="#">HTML/CSS</a>
+                    <div class="uk-accordion-content">
+                        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat proident.</p>
+                    </div>
+                </li>
+
+            </ul>
+    </section>
+    <section id="course-technology">
+        <div class="uk-container uk-container-small ">
+            <h2 class="uk-text-center course-technology--title">Технології</h2>
+            <div class="course-technology--grid">
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/vue.svg'|theme }}" class="lazyload" alt="Vue">
+                    <p class="course-technology--grid-item--description">Vue</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/tailwind.svg'|theme }}" class="lazyload" alt="Tailwind">
+                    <p class="course-technology--grid-item--description">Tailwind</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/sass.svg'|theme }}" class="lazyload" alt="Sass">
+                    <p class="course-technology--grid-item--description">Sass</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/react-mobile.svg'|theme }}" class="hide-pc lazyload" alt="React">
+                    <img data-src="{{ 'assets/images/courses/react.png'|theme }}" class="hide-mob pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/github.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/html.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/js.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/npm.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/git.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+                <div class="course-technology--grid-item">
+                    <img data-src="{{ 'assets/images/courses/css.png'|theme }}" class="pc-view lazyload" alt="React">
+                    <p class="course-technology--grid-item--description">React</p>
+                </div>
+            </div>
+            <p class="uk-text-center course-technology--follow-us">Приєднуйся до нас та отримай доступ до всіх технологій
+            </p>
+            <a class="course-technology--get-all" href="#"> Всі технології <span> <span class="orange-attention"> +
+                    </span></span> </a>
+        </div>
+    </section>
+    <section id="course-price">
+        <div class="uk-container uk-container-small ">
+            <h2 class="uk-text-left course-technology--title">Ціна за курс</h2>
+            <div class="course-price--price-wrapper">
+                <div class="price-wrapper--main-price-wrapper">
+                    <p class="price-wrapper--main-price">
+                        <span class="main-price--price--cost">1 999 </span><span class="main-price--currency">грн</span>
+                    </p>
+                </div>
+                <div class="course-price--course-description">
+
+                    <div class="course-price--course-description-wrapper">
+                        <h3 class="course-price--vacancies">
+                            <div><span class="course-category uk-text-center "><span>IT</span></span>
+                            </div>Професія Front-End програміст</h3>
+                        <ul>
+                            <li><span> 5 </span>занять</li>
+                            <li><span> 48 </span>годин практики</li>
+                            <li>м.Київ <span>Слобода 24</span>, 3 поверх</li>
+                            <li>+380 97 123 33 44</li>
+                        </ul>
+                    </div>
+                </div>
+                <a href="#" class="main-button-action "> Реєструйся </a>
+            </div>
+        </div>
+    </section>
+    <section id="students-review">
+        <h2 class="uk-text-center students-review--title title-onlymobile">Що про нас кажуть</h2>
+        <h2 class="uk-text-center students-review--title">Про нас кажуть</h2>
+        <div class="owl-carousel students-review--owl">
+            <div class="slides" data-count='1'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/heart.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slides" data-count='2'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/like.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slides" data-count='3'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/heart.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slides" data-count='4'>
+                <div class="students-review--owl-card">
+                    <div class="owl-card--header">
+                        <picture>
+                            <source srcset="{{ 'assets/images/courses/pexels-photo-27411.webp'|theme }}" type="image/webp">
+                            <img data-src="{{ 'assets/images/courses/pexels-photo-27411.jpg'|theme }}" class="lazyload owl-card--header-avatar" alt="">
+                        </picture>
+                        <div class="owl-card--header-student">Марина Чумко</div>
+                        <img class="owl-card--header-icon" src="{{ 'assets/images/courses/like.png'|theme }}" alt="">
+                    </div>
+                    <div class="owl-card--body">Преподаватель умеет передать свои знания студентам, рассказал за время обучения курса много действительно важных аспектов и деталей данного IT направление , чувствуется , что имеет большой опыт в преподавании как очно так и дистанционно.
+                        Очень порадовала работа с LMS системой и подходом к обучению студентов. Отдельно спасибо преподавателю и администраторов<span class="show-more"> ...</span>
+                        <span class="hided"> преподователями как Владимир - очень позитивный и приятный человек, всегда
+                            с радостью посещала
+                            занятия и легко запоминала новую информацию благодаря подачи Владимира</span>
+                    </div>
+                    <div class="owl-card--footer">
+                        <div class="owl-card--footer--wrapper">
+                            <div><span class="uk-text-center course-category"><span>IT</span></span>
+                            </div>
+                            <div>
+                                <h3 class="owl-card--footer--wrapper-profession">Професія Front-End програміст</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="students-review--counter">
+            <span class="counter--current-item">1</span>
+            <span class="counter--border-progress"><span class="pulse"></span></span>
+            <span class="counter--all-items"></span>
+        </div>
+        <a class="students-review--get-all" href="#"> Додати відгук <span class="students-review--plus-wrapper"> <span
+                    class="orange-attention"> +
+                </span></span> </a>
+    </section>
+    {% partial 'reg-bottom' %}";s:4:"code";N;s:5:"title";s:16:"Front-End Course";s:3:"url";s:16:"/frontend_course";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";}}

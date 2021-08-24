@@ -1,0 +1,21 @@
+1629738519a:1:{s:26:"reg-form/choose-course.htm";a:6:{s:8:"fileName";s:26:"reg-form/choose-course.htm";s:7:"content";s:401:"[builderList]
+modelClass = "Kfund\Creator\Models\Courses"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsKeyColumn = "slug"
+detailsUrlParameter = "slug"
+pageNumber = "{{ :page }}"
+==
+
+{% set records = builderList.records %}
+
+{% for record in records %}
+    <option>{{ record.title }}</option>
+{% endfor %}";s:5:"mtime";i:1629369275;s:6:"markup";s:125:"{% set records = builderList.records %}
+
+{% for record in records %}
+    <option>{{ record.title }}</option>
+{% endfor %}";s:4:"code";N;s:11:"builderList";a:9:{s:10:"modelClass";s:28:"Kfund\Creator\Models\Courses";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:16:"detailsKeyColumn";s:4:"slug";s:19:"detailsUrlParameter";s:4:"slug";s:10:"pageNumber";s:11:"{{ :page }}";}}}
